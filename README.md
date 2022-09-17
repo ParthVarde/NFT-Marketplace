@@ -1,7 +1,7 @@
 # NFT-Marketplace
 #### This is a basic project that let's you mint one NFT per user.
 
-![This is a screenshot of dapp](https://github.com/ParthVarde/NFT-Marketplace/tree/main/frontend/public/SS.png)
+![This is a screenshot of dapp](/frontend/public/SS.png)
 
 #### The smart contract is deployed on Goerli testnet. Due to ETH merge, Rinkeby testnet will be deprecated soon.
 #### Smart Contract Address : [0xd18332fD9196F23082D38139390082AFC5EF009b](https://goerli.etherscan.io/address/0xd18332fD9196F23082D38139390082AFC5EF009b).
