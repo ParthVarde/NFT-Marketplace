@@ -148,7 +148,7 @@ function App() {
       // Check for event emitted from the smart contract
       contract.on("NFTMinted", (from, tokenId) => {
         console.log(`https://testnets.opensea.io/assets/goerli/${contract_address}/${tokenId.toNumber()}`);
-        alert(`Hey, there! We've minted your NFT. It may be blank right now. It can take max of 10 minutes. Here's the link: <https://testnets.opensea.io/assets/goerli/${contract_address}/${tokenId.toNumber()}>`);
+        alert(`Hey, there! We've minted your NFT. It may be blank right now. It can take max of 10 minutes for Opensea to load the metadata. Here's the link: <https://testnets.opensea.io/assets/goerli/${contract_address}/${tokenId.toNumber()}>`);
         checkBalance(currentAccount);
         setLoading(false);
       });
